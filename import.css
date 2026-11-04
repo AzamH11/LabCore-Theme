@@ -1,0 +1,44 @@
+:root {
+  /* 1. الخلفية المتحركة - ⚠️ ضع رابط مباشر ينتهي بـ .gif هنا */
+  --cv-background-image: url('https://images-ext-1.discordapp.net/external/KLw2UQ6TCvaZDSS-Lv-JNQ5p3f6ghpCMCjlySHVCt0w/https/cdn.dyno.gg/promos/dyno-arcade-promo.png?format=webp&quality=lossless') !important;
+  --background-image: url('https://images-ext-1.discordapp.net/external/KLw2UQ6TCvaZDSS-Lv-JNQ5p3f6ghpCMCjlySHVCt0w/https/cdn.dyno.gg/promos/dyno-arcade-promo.png?format=webp&quality=lossless') !important;
+  
+  /* 2. التعتيم */
+  --background-shading-color: #000000 !important;
+  --background-shading-percent: 75% !important;
+
+  /* 3. الألوان الأساسية */
+  --main-color: #5c6370 !important; 
+  --hover-color: rgba(92, 99, 112, 0.2) !important;
+  --selected-color: rgba(92, 99, 112, 0.4) !important;
+
+  /* 4. النصوص */
+  --text-normal: #adb5bd !important;
+  --header-primary: #dee2e6 !important;
+}
+
+/* تعديل المنشن */
+.mention.wrapper_d576e9.interactive, 
+.mention.wrapper_d576e9.interactive:hover {
+    background: rgba(0, 0, 0, 0.6) !important;
+    color: #dee2e6 !important;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: 700 !important;
+    backdrop-filter: blur(8px) !important;
+    border: 1px solid rgba(92, 99, 112, 0.3) !important;
+}
+
+/* حقوق LAB CORE */
+html::after {
+    content: "discord.gg/9mTBs955sG | LAB CORE" !important;
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 20px !important;
+    font-size: 13px !important;
+    font-weight: 800 !important;
+    color: #5c6370 !important;
+    opacity: 0.4 !important;
+    z-index: 99999 !important;
+    font-family: 'Cairo', sans-serif !important;
+}
