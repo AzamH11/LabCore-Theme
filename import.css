@@ -1,10 +1,14 @@
 @import url("https://clearvision.github.io/ClearVision-v7/main.css");
 
 :root {
-  /* 1. الخلفية المتحركة - ⚠️ ضع رابط مباشر ينتهي بـ .gif هنا */
-  --cv-background-image: url('https://media.discordapp.net/attachments/1523407501616222238/1540141392393674912/7ECAF3A9-8B01-4562-93C7-B1C84C659929.png?ex=6aec6932&is=6aeb17b2&hm=f779ab6c6774dcfe12617aacf5a747f1da810ca5b964ed4508366ebafcf7e1ab&=&format=webp&quality=lossless&width=80&height=48') !important;
-  --background-image: url('https://media.discordapp.net/attachments/1523407501616222238/1540141392393674912/7ECAF3A9-8B01-4562-93C7-B1C84C659929.png?ex=6aec6932&is=6aeb17b2&hm=f779ab6c6774dcfe12617aacf5a747f1da810ca5b964ed4508366ebafcf7e1ab&=&format=webp&quality=lossless&width=80&height=48') !important;
+  /* 1. الخلفية المتحركة */
+  --cv-background-image: url('https://i.imgur.com/9603d2l.jpg') !important;
+  --background-image: url('https://i.imgur.com/9603d2l.jpg') !important;
   
+  /* ✅ السطرين الجديدة اللي بتخلي الصورة تغطي الشاشة */
+  --background-size: cover !important;
+  --background-position: center !important;
+
   /* 2. التعتيم */
   --background-shading-color: #000000 !important;
   --background-shading-percent: 75% !important;
