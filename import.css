@@ -2,7 +2,7 @@
 
 :root {
   /* 1. الخلفية - الرابط حقك المباشر */
---background: url('https://i.ibb.co/3yhT4Gvd/IMG-7935.jpg') !important;
+--bg-image: url('https://i.ibb.co/3yhT4Gvd/IMG-7935.jpg') !important;
   
   /* ✅ أوامر إجبارية عشان الصورة تغطي الشاشة كلها */
   --background-size: cover !important;
