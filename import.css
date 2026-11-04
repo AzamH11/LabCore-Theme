@@ -1,17 +1,17 @@
 @import url("https://clearvision.github.io/ClearVision-v7/main.css");
 
 :root {
-  /* 1. الخلفية المتحركة */
-  --cv-background-image: url('https://i.imgur.com/9603d2l.jpg') !important;
+  /* 1. الخلفية - الرابط حقك المباشر */
   --background-image: url('https://i.imgur.com/9603d2l.jpg') !important;
   
-  /* ✅ السطرين الجديدة اللي بتخلي الصورة تغطي الشاشة */
+  /* ✅ أوامر إجبارية عشان الصورة تغطي الشاشة كلها */
   --background-size: cover !important;
   --background-position: center !important;
+  --background-attachment: fixed !important;
 
-  /* 2. التعتيم */
+  /* ✅ قللنا التعتيم من 75% إلى 30% عشان تبان الصورة */
   --background-shading-color: #000000 !important;
-  --background-shading-percent: 75% !important;
+  --background-shading-percent: 30% !important;
 
   /* 3. الألوان الأساسية */
   --main-color: #5c6370 !important; 
